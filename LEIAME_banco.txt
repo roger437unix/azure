@@ -1,0 +1,23 @@
+# Tabela tbl_dados
+
+MySQL [banco]> CREATE TABLE tbl_dados(
+    -> id int auto_increment primary key,
+    -> nome varchar(50) not null,
+    -> email varchar(50) not null,
+    -> senha varchar(50) not null);
+Query OK, 0 rows affected (0.213 sec)
+
+
+# Extrutura da Tabela
+
+MySQL [banco]> desc tbl_dados;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| id    | int         | NO   | PRI | NULL    | auto_increment |
+| nome  | varchar(50) | NO   |     | NULL    |                |
+| email | varchar(50) | NO   |     | NULL    |                |
+| senha | varchar(50) | NO   |     | NULL    |                |
++-------+-------------+------+-----+---------+----------------+
+4 rows in set (0.140 sec)
+
