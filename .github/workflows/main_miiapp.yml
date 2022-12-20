@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'miiapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_05D827E5612A44C58DA83DD0156C7315 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4BC295C60318481981316F5C7644C3A0 }}
